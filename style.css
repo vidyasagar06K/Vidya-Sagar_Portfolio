@@ -300,7 +300,7 @@ justify-content: space-between;
 width: 100%;
 }
 
-.image img{
+.home .image img{
     width: 65%;
     margin-left: 25%;
 }
@@ -1189,7 +1189,7 @@ align-items: center;
     .header{
         background: var(--bg--color);
     }
-    .image img{
+    .home .image img{
         display: none;
     }
     #menu-icon{
@@ -1361,6 +1361,7 @@ align-items: center;
     
     .edu .card p {
         font-size: 1rem;
+        gap:no gap;
     }
 
     .skill .skill-btn{
