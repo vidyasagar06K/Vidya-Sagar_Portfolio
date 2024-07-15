@@ -1181,7 +1181,6 @@ align-items: center;
 
     .edu .card p{
         font-size: 1.19rem;
-        
     }
    
 }
@@ -1362,7 +1361,7 @@ align-items: center;
     
     .edu .card p {
         font-size: 1rem;
-        gap:0rem;
+       row-gap:0rem;
     }
 
     .skill .skill-btn{
