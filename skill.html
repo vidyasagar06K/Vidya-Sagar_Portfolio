@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF_8">
+    <meta http_equiv="X_UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device_width, initial_scale=1.0">
+    <title>Skills Section</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="action.js"></script>
+</head>
+<body>
+        <!--header design-->
+        <header class="header">
+            <a href="#" class="logo">Portfolio.</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact Me</a>
+                <span class="active-nav"></span>
+            </nav>  
+        </header>
+        <section>
+    <div class="skills_section">
+        <div class="skills_head">
+            <h2>My<span>Skills</span></h2>
+            <p><span>Here is my skills to represent my Expertise</span></p>
+        </div>
+
+        <div class="skills_main">
+            <div class="skill_bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <P>90%</P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <P>80%</P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Java Script</p>
+                    <P>60%</P>
+                </div>
+                <div class="bar">
+                    <span class="javascript"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>JAVA</p>
+                    <P>85%</P>
+                </div>
+                <div class="bar">
+                    <span class="java"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>PYTHON</p>
+                    <P>70%</P>
+                </div>
+                <div class="bar">
+                    <span class="python"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>C / C++</p>
+                    <P>90%</P>
+                </div>
+                <div class="bar">
+                    <span class="cpp"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>MY SQL</p>
+                    <P>70%</P>
+                </div>
+                <div class="bar">
+                    <span class="sql"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>DSA</p>
+                    <P>80%</P>
+                </div>
+                <div class="bar">
+                    <span class="dsa"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>DS & ML</p>
+                    <P>50%</P>
+                </div>
+                <div class="bar">
+                    <span class="ds"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="res">
+        <a href="https://drive.google.com/file/d/1_Qogr2Xz4zaZx1-FndgqhhQM1VyXPkGH/view?usp=drive_link" target="_blank" class="res-btn">View Resume</a>
+    </div>
+    </section>
+    <script>
+    //toggle icon bars
+    let menuIcon = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menuIcon.onclick = () =>{
+        menuIcon.classList.toggle('bx-x');
+        navbar.classList.toggle('active');
+    }
+    
+    //scroll sections
+    let sections = document.querySelectorAll('section');
+    let navlinks = document.querySelectorAll('header nav a');
+    
+    window.onscroll = () =>{
+        sections.forEach(sec => {
+            let top = window.scrollY;
+            let offset = sec.offsetTop - 100;
+            let height = sec.offsetHeight;
+            let id = sec.getAttribute('id');
+            if(top >= offset && top < offset + height) {
+                   //active navbar links
+                   navlinks.forEach(links => {
+                    links.classList.remove('active');
+                    document.querySelectorAll('header nav a[href*=' + id +' ]').classList.add('active');
+                   });
+            }
+        });
+    }
+    
+    window.onscroll = () =>{
+        //sticky header
+        let header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 100);
+     //remove toggle icon and navbar when clicks navbar links(scroll)
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+    }
+     </script>
+</body>
+</html>
