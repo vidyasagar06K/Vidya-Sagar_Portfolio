@@ -1319,11 +1319,11 @@ align-items: center;
 .footer{
     flex-direction: column-reverse;
 }
-.footer p{
+.footer p
+    {
     margin-top: 2rem;
     text-align: center;
-}
-
+    }
 }
 
 @media (max-width: 371px) {
@@ -1331,7 +1331,7 @@ align-items: center;
         justify-content: center;
         text-align: center;
     }
-
+    
     .home-sci{
         gap: 1.5rem;
     }
@@ -1358,9 +1358,7 @@ align-items: center;
 }
 
     .edu .card h2 {
-        font-weight:200;
         font-size: 1.2rem;
-    
     }
     
     .edu .card p {
@@ -1401,7 +1399,7 @@ align-items: center;
 margin-right: 2rem;
 }
 
- .btn{
+.btn{
     margin-left: 1rem;
 }
 .about{
@@ -1436,7 +1434,6 @@ margin-right: 2rem;
 }
 }
 
-
 /* Key Frames Animation */
 @keyframes homeBgText {
     0%,
@@ -1456,7 +1453,7 @@ margin-right: 2rem;
     0%,
     10%,
     100%{
-        width: 0;
+      width: 0;
     }
 
     65%,
