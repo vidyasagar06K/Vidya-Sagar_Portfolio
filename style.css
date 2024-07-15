@@ -1357,7 +1357,9 @@ align-items: center;
         font-weight:200;
         font-size: 1rem;
         margin-bottom:2rem;
-      
+    }
+    .edu .card{
+        height:10rem;
     }
     
     .edu .card p {
