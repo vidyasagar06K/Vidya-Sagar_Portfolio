@@ -403,7 +403,7 @@ width: 100%;
 }
 
 .edu .card p {
-    margin: 2rem 3rem;
+    margin: 2rem 2rem;
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
     margin-left: 2rem;
@@ -1181,6 +1181,7 @@ align-items: center;
 
     .edu .card p{
         font-size: 1.19rem;
+        margin-bottom: 3rem;
     }
    
 }
