@@ -969,7 +969,7 @@ font-size: 1.6rem;
 
 .skill_bar .bar .css{
     width: 80%;
-    animation: css 2s;
+    animation: css 2s; 
 }
 @keyframes css {
     0%{
@@ -1181,6 +1181,7 @@ align-items: center;
 
     .edu .card p{
         font-size: 1.19rem;
+        
     }
    
 }
@@ -1361,7 +1362,7 @@ align-items: center;
     
     .edu .card p {
         font-size: 1rem;
-        gap:no gap;
+        gap:0rem;
     }
 
     .skill .skill-btn{
