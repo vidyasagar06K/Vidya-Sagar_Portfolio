@@ -88,9 +88,6 @@ section{
     max-width: 68rem;
 }
 .home img{
-height:1rem;
-width:1rem;
-border-radius:50%;
 display:none;
 }
 .home-content h1{
