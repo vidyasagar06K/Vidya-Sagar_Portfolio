@@ -397,7 +397,6 @@ width: 100%;
 
 .edu .card h2 {
     margin: 40px 40px;
-    width:100%;
     font-size: 1.4rem;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -1295,8 +1294,7 @@ align-items: center;
     }    
         .edu .card h2 {
         font-weight:200;
-        font-size: 1rem;
-        width:100%;
+        font-size: 1.2rem;
     }
 }
 
