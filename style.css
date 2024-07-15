@@ -1292,6 +1292,11 @@ align-items: center;
     .skills_section{
         display:contents;
     }    
+        .edu .card h2 {
+        font-weight:200;
+        font-size: 1rem;
+        width:100%;
+    }
 }
 
 @media (max-width:462px){
@@ -1360,7 +1365,7 @@ align-items: center;
     }
     
     .edu .card p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .skill .skill-btn{
