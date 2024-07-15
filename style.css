@@ -403,7 +403,7 @@ width: 100%;
 }
 
 .edu .card p {
-    margin: 6rem 6rem;
+    margin: 2rem 2rem;
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
     margin-left: 2rem;
@@ -1147,9 +1147,7 @@ html{
 }
 
 @media(max-width:975px){
-    .image img{
-        display: none;
-    }
+   
     
     .home{
         justify-content: center;
@@ -1191,7 +1189,9 @@ align-items: center;
     .header{
         background: var(--bg--color);
     }
-
+    .image img{
+        display: none;
+    }
     #menu-icon{
         display: block;
     }
