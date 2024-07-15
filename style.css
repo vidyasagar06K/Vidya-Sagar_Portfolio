@@ -1358,7 +1358,13 @@ align-items: center;
         font-size: 1rem;
         margin-bottom:2rem;
     }
-    .edu .card{
+    .edu .card-image2{
+        height:10rem;
+    }
+     .edu .card-image1{
+        height:10rem;
+    }
+     .edu .card-image3{
         height:10rem;
     }
     
