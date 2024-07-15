@@ -1356,21 +1356,10 @@ align-items: center;
     .edu .card h2 {
         font-weight:200;
         font-size: 1rem;
-        margin-bottom:2rem;
-    }
-    .edu .card-image2{
-        height:10rem;
-    }
-     .edu .card-image1{
-        height:10rem;
-    }
-     .edu .card-image3{
-        height:10rem;
     }
     
     .edu .card p {
-        font-size: 1rem;
-       row-gap:0rem;
+        font-size: 0.8rem;
     }
 
     .skill .skill-btn{
