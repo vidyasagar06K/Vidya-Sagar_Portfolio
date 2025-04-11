@@ -335,7 +335,7 @@ width: 100%;
 }
 
 .about-img img{
-    width: 30%;
+    width: 40%;
     border-radius: 30%;
     border: .2rem solid var(--main-color);
 }
