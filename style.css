@@ -336,6 +336,7 @@ width: 100%;
 
 .about-img img{
     width: 50%;
+    height: 50%;
     border-radius: 50%;
     border: .2rem solid var(--main-color);
 }
