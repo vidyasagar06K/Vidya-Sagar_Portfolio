@@ -358,8 +358,7 @@ width: 100%;
 
 .about-content p{
     font-size:1.6rem ;
-    text-align: justify;
-    text-justify: inter-word;
+    
 }
 
     .education{
@@ -1477,6 +1476,7 @@ margin-right: 2rem;
         transform: translate(-50% , -50%) rotate(360deg);
     }
 }
+
 
 
 
